@@ -9,16 +9,20 @@ const ContactPage = (props) => {
         <Layout>
             <Head title="Contact Me."/>
             <h1 css={css`color: #383838;`}>Contact Me.</h1>
-            <a href="mailto:abeherham@knights.ucf.com"><Img fixed={props.data.OutlookLogo.childImageSharp.fixed} /></a>
+            <p><a href="mailto:abeherham@knights.ucf.com"><Img fixed={props.data.OutlookLogo.childImageSharp.fixed} /></a></p>
 
             <div>
                 <ul css={css`
                     display: flex; 
+                    justif-self: center;
+                    margin: 0;
+                    padding: 0;
                     float: left; 
                     list-style-type: none;
                     li {
-                        padding-right: 1.2rem;    
+                        margin-right: 1.2rem;    
                     }
+                    flex-wrap: wrap;
                         `}
                 >
                     <li><a href="https://github.com/abeherham"><Img fixed={props.data.GitHubLogo.childImageSharp.fixed} /></a></li>
@@ -50,7 +54,7 @@ export const pageQuery = graphql`
 
         OutlookLogo: file(relativePath: { eq: "Outlook-logo.png" }) {
             childImageSharp {
-            fixed(width: 500) {
+            fixed(width: 250) {
               ...GatsbyImageSharpFixed
             }
           }
