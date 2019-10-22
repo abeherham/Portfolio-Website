@@ -25,7 +25,7 @@ const ContactPage = (props) => {
                     flex-wrap: wrap;
                         `}
                 >
-                    <li><a href="https://github.com/abeherham"><Img fixed={props.data.GitHubLogo.childImageSharp.fixed} /></a></li>
+                    <li><a href="https://github.com/habraham2023"><Img fixed={props.data.GitHubLogo.childImageSharp.fixed} /></a></li>
                     <li><a href="https://linkedin.com/in/abeher"><Img fixed={props.data.LinkedInLogo.childImageSharp.fixed} /></a></li>
                 </ul>
             </div>
