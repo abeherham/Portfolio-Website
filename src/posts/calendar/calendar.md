@@ -8,7 +8,7 @@ draft: false
 A calendar application with an easy-to-use interface that can save its current contents in a configuration file and then read from it on the next startup.
 
 
-## [GitHub](https://github.com/abeherham/Calendar-App): What's included?
+## [GitHub](https://github.com/habraham2023/Calendar-App): What's included?
 * Source code (C and Header files)
 * Executable application
 * Example configuration file (config.cfg)

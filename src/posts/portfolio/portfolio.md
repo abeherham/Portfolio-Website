@@ -7,7 +7,7 @@ draft: false
 ## What is it?
 This very portfolio website is not built upon by regular HTML and CSS, instead, it is built on GatsbyJS, the free and open-source framework based on React for creating websites and apps. The biggest advantage being optimization as only the most critical parts of the website are loaded first and only afterward is the remaining code brought down. As a result, browsing the website is as fast as possible and usual problems with scaling and maintenance cost are reduced as Gatsby builds its websites in easily deployable “static” files.
 
-## [GitHub](https://github.com/abeherham/Portfolio-Website"): What's inside?
+## [GitHub](https://github.com/habraham2023/Portfolio-Website"): What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
